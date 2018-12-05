@@ -11,7 +11,11 @@ public class Ejercicio2 {
 	 * contenga los mismos caracteres que ésta y en el mismo orden. 
 	 */
 	
-	public static ...
+	public static void stringToArray() {
+		String str;
+		len = str.length;
+		System.out.println(len);
+	}
 	
 	
 	/*
@@ -22,7 +26,7 @@ public class Ejercicio2 {
 	 */
 	
 	public static void main(String[] args) {
-		
+		stringToArray ();
 
 	}
 

@@ -1,5 +1,7 @@
 package fp.daw.examen;
 
+import java.util.Random;
+
 public class Ejercicio6 {
 
 	/* 
@@ -14,7 +16,8 @@ public class Ejercicio6 {
 	 */
 		
 	public static void main(String[] args) {
-		
+		Random in = new Random (1000000);
+		int [] vector = {};
 
 	}
 

@@ -13,7 +13,9 @@ public class Ejercicio1 {
 	 * uso de variables booleanas.
 	 */
 	
-	public static ...
+	public static void contiene (int[] vector ) {
+		
+	}
 	
 	/*
 	 * 0,25 puntos
@@ -23,7 +25,7 @@ public class Ejercicio1 {
 	 */
 	
 	public static void main(String[] args) {
-		
+		contiene ();
 
 	}
 

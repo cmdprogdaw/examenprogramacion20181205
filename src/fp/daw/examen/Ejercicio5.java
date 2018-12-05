@@ -1,5 +1,7 @@
 package fp.daw.examen;
 
+import java.util.Scanner;
+
 public class Ejercicio5 {
 
 	/* 
@@ -24,7 +26,20 @@ public class Ejercicio5 {
 	
 	public static void main(String[] args) {
 		
-
+		Scanner in = new Scanner (System.in);
+		
+		int cantidad;
+		System.out.print("Introduce la cantidad de dinero que quieres que se desglose: ");
+		cantidad = in.nextInt();
+		
+		int [] billete = {500, 200, 100, 50, 20, 10, 5};
+		int [] moneda = {2, 1};
+		do {
+			int num=0;
+			System.out.println("Hay "+num+" billetes de " );
+			
+		}while(cantidad>0);
+		
 	}
 
 }

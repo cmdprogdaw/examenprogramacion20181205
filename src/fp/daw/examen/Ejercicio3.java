@@ -35,9 +35,15 @@ public class Ejercicio3 {
 		int j = 0;
 		for (int i=0; i<nums.length-1; i++)
 			if (nums[i] == 4 && nums[i+1] != 5) {
-				for (; !(nums[j] == 5 && (j == 0 || nums[j - 1] != 4)); j++);
-				nums[j] = nums[i + 1];
-				nums[i + 1] = 5;
+				while(nums[j] == 5 && (j == 0 || nums[j - 1] != 4)) {
+					nums[j] = nums[i + 1];
+					nums[i + 1] = 5;
+					j++;
+				}
+					
+//				for (; !(nums[j] == 5 && (j == 0 || nums[j - 1] != 4)); j++);
+//				nums[j] = nums[i + 1];
+//				nums[i + 1] = 5;
 			}
 		return nums;
 	}
@@ -50,8 +56,7 @@ public class Ejercicio3 {
 	 */
 	
 	public static void main(String[] args) {
-		
+		fix45();
 
 	}
-
 }
